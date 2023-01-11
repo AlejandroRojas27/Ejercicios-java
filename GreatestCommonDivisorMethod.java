@@ -8,9 +8,9 @@ public class GreatestCommonDivisorMethod {
 
         //Promt the user to enter two integer
         System.out.println("Enter first integer: ");
-        int n1 = input.nextInt();
+        int n1 = 125;//input.nextInt();
         System.out.println("Enter second integer: ");
-        int n2 = input.nextInt();
+        int n2 = 2525;//input.nextInt();
 
         System.out.println("The greatest common divisor for " + n1 + " and " + n2 + " is " + gcd(n1, n2));
     }

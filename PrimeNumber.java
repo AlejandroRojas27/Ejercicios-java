@@ -1,6 +1,6 @@
 public class PrimeNumber {
     public static void main(String[] args) {
-        final int NUMBERS_OF_PRIMES = 168;
+        final int NUMBERS_OF_PRIMES = 50;
         final int NUMBERS_OF_PRIMES_PER_LINE = 10;
         int count = 0;
         int number = 2;
@@ -13,7 +13,7 @@ public class PrimeNumber {
             boolean isPrime = true;
             //Test whether number is prime
             for (int divisor = 2; divisor <= number / 2; divisor++){
-                if (number % divisor == 0) { //If true, number is ot prime
+                if (number % divisor == 0) { //If true, number is not prime
                     isPrime = false;
                     break;
                 }

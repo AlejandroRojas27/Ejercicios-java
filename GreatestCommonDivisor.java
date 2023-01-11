@@ -4,8 +4,6 @@ public class GreatestCommonDivisor {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-
-
         //Propt the user to enter two integers
         System.out.print("Enter first integer: ");
         int n1 = 125;//(int)(Math.random() * 51);//input.nextInt();

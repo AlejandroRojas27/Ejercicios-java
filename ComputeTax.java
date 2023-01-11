@@ -12,9 +12,9 @@ public class ComputeTax {
         System.out.println("2 for married filing separately");
         System.out.println("3 for head of household");
         System.out.print("What is your status? ");
-        int status = input.nextInt();
+        int status = 1;//input.nextInt();
 
-        double income = 50000;
+        double income = 35000;
         System.out.println("For a income of: " + income);
 
         double tax = 0;
